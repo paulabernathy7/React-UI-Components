@@ -1,3 +1,51 @@
+
+.first-row {
+    display: flex;
+    
+    
+}
+
+.sec-row {
+    display: flex;
+}
+
+.third-row {
+    display: flex;
+}
+
+.fourth-row {
+    display: flex;
+}
+
+.fifth-row {
+    display: flex;
+}
+
+.num-btn {
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    padding: 14px 28px;
+    width: 65px;
+    
+}
+.actionStyle {
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    padding: 14px 28px;
+    width: 195px;
+}
+
 .buttonStyle {
-    color: blue;
+    background: #9e0523;
+    color: white;
+    text-align: center;
+    width: 50px;
+    font-size: 20px;
+    height: 50px;
 }

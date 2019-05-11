@@ -6,24 +6,34 @@ import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 
 const App = () => {
   return (
-    <div>
-      <CalculatorDisplay text="0" />
-      <ActionButton text="Clear" />
-      <NumberButton text="/" />
-      <NumberButton text="7" />
-      <NumberButton text="8" />
-      <NumberButton text="9" />
-      <NumberButton text="x" />
-      <NumberButton text="4" />
-      <NumberButton text="5" />
-      <NumberButton text="6" />
-      <NumberButton text="-" />
-      <NumberButton text="1" />
-      <NumberButton text="2" />
-      <NumberButton text="3" />
-      <NumberButton text="+" />
-      <ActionButton text="0" />
-      <NumberButton text="=" />
+    <div className="container">
+      <CalculatorDisplay displayStyle ="displayStyle"text="0" />
+      <div className="first-row">
+      <ActionButton actionStyle = "actionStyle" text="Clear" />
+      <NumberButton buttonStyle ="buttonStyle" text="/" />
+      </div>
+      <div className="sec-row">
+      <NumberButton buttonStyle ="num-btn"text="7" />
+      <NumberButton buttonStyle ="num-btn" text="8" />
+      <NumberButton buttonStyle ="num-btn"text="9" />
+      <NumberButton buttonStyle ="buttonStyle" text="x" />
+      </div>
+      <div className="third-row">
+      <NumberButton buttonStyle ="num-btn" text="4" />
+      <NumberButton buttonStyle ="num-btn" text="5" />
+      <NumberButton buttonStyle ="num-btn" text="6" />
+      <NumberButton buttonStyle ="buttonStyle" text="-" />
+      </div>
+      <div className="fourth-row">
+      <NumberButton buttonStyle ="num-btn" text="1" />
+      <NumberButton buttonStyle ="num-btn" text="2" />
+      <NumberButton buttonStyle ="num-btn" text="3" />
+      <NumberButton buttonStyle ="buttonStyle" text="+" />
+        </div>
+        <div className="fifth-row">
+      <ActionButton actionStyle = "actionStyle" text="0" />
+      <NumberButton buttonStyle ="buttonStyle" text="=" />
+      </div>
 
       {/* <NumberButton buttonStyle="buttonStyle" text="1"/> */}
     </div>

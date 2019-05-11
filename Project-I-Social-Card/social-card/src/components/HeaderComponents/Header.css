@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+
+.title {
+    display: flex;   
+}
+
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
